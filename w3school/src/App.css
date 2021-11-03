@@ -1,0 +1,87 @@
+#headcont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  }
+  
+  .logo{
+  width: 79px;
+  padding-top: 20px;
+  
+  }
+
+  .vmenu {
+    background-color:hsl(210,10%,14%);
+    height: 100vh;
+    width: 200px;
+  }
+  
+  .topLinks{
+    color: whitesmoke;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+  
+  .topLinks:hover{
+    background-color: rgba(240, 230, 140, 0.65);
+  }
+  
+  .vmenu a:visited{
+    background-color: aqua;
+  }
+
+  .hmenu {
+    padding-left: 200px;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    background-color:rgba(33, 37, 41, 0.952) ;
+  }
+  
+  .topLinks{
+    color: whitesmoke;
+    height: 4vh;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  .topLinks:hover{
+    background-color: #7fd3b4;
+  }
+  .topLinks:active{
+    background-color: indianred;
+  }
+  
+  #navBar{
+    padding-left: 210px;
+  }
+  
+  #navLinks:focus{
+    background-color: aqua;
+  
+  }
+  
+  #navLinks:hover{
+    background-color: #7fd3b4;
+  }
+  
+  aside{
+    background-color: #6ca2d1;
+    width: 19vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #asideImg{
+    margin: 100px 0;
+    height: 100px;
+    z-index: 1;
+  }
+  
